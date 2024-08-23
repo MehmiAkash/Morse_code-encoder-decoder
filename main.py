@@ -33,11 +33,7 @@ def morse_decoder(encoded,key):
                             word += " "  # Add space between words
               else:
                      temp += i
-       if temp:  # Handling the last Morse code segment
-              if morse.index(temp) < 10:
-                     word += chr(morse.index(temp) + 48)
-              else:
-                     word += chr(morse.index(temp) + key)
+
        return word
 
 #chr()
