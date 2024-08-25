@@ -5,6 +5,7 @@ morse=[  "-----",  ".----",  "..---",  "...--",  "....-",  ".....",  "-....",  "
        "--.-",".-.","...","-","..-","...-",".--","-..-",
        "-.--","--.."]
 #first 10 elements of morse array represent numbers from 0 to 10
+print(ord("9"))
 def morse_encoder(word_ascii,key):
        morse_encoded=""
        for i in word_ascii:
